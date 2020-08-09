@@ -15,7 +15,7 @@ end
 def greet_crew (crew)
   crew.each {|crew_member| "Hello #{crew_member}."}
 end
-  binding.pry
+
 def engage
   state_log(date)
   greet_crew(crew)
