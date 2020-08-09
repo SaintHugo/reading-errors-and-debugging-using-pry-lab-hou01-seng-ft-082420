@@ -10,6 +10,6 @@ def state_log(star_date)
 end
 
 def engage
-binding.pry
+
  state_log
 end
